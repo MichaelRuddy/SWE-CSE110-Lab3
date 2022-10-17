@@ -8,15 +8,22 @@ header {
     padding-left: 1cm;
     padding-right: 1cm;
     text-decoration: wavy;
-    position: relative;
 } 
 body {
+<<<<<<< HEAD
     display: inline;
     background-color: hsl(161, 75%, 83%);
     color: orange;
     padding: auto; 
     text-align: center; 
     position: static;
+=======
+    display: blcok;
+    background-color: hsl(161, 75%, 83%);
+    color: orange;
+    padding: auto;
+    text-align: center;
+>>>>>>> parent of b6ff0bf (Finished all bullets in lab just have to debug now)
 }
 h1 {
     display: inline;
@@ -29,14 +36,16 @@ h1 {
 
 
 }
+<<<<<<< HEAD
 @media (hover: hover) {
     h1:hover {
         background-color: blueviolet;
     }
   }
 
+=======
+>>>>>>> parent of b6ff0bf (Finished all bullets in lab just have to debug now)
 h2 {
-    display: block;
     color: red;
     margin-left: 40px;
     font-size: 1cm; /* third abs unit*/
@@ -53,7 +62,6 @@ h3 {
     font-size: 1cm; /* third abs unit*/
 }
 section {
-    display: grid;
     font-size: 2ex; /*third relative*/
 
 }
@@ -101,6 +109,6 @@ div > p {
 h2[id] {
     background-color: antiquewhite;
 }
-button:active {
+button:hover {
     color: blue;
   }
