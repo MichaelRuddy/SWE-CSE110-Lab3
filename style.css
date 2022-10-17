@@ -11,7 +11,7 @@ header {
     position: relative;
 } 
 body {
-    display: flex;
+    display: none;
     background-color: hsl(161, 75%, 83%);
     color: orange;
     padding: auto;
@@ -34,17 +34,13 @@ h1 {
         background-color: blueviolet;
     }
   }
-@media (max-width: 1250px) {
-    h2 {
-        max-width: 1250px;
-    }
-  }
+
 h2 {
     display: block;
     color: red;
     margin-left: 40px;
     font-size: 1cm; /* third abs unit*/
-    max-width: 500px;
+    max-width: 100px;
     
 }
 h3 {
