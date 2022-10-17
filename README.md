@@ -10,3 +10,9 @@ header {
     padding-left: 1cm;
     padding-right: 1cm;
 } 
+
+@media (max-width: 1250px) {
+    h2 {
+        max-width: 1250px;
+    }
+  }
