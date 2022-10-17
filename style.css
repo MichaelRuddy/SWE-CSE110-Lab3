@@ -1,0 +1,17 @@
+/* Begin style sheet */
+head {
+    background-color: rgb(255, 215, 0);
+    color: #4169e1;
+    color: hsl(161, 58%, 50%);
+
+}
+/* Body /*
+
+body {
+    background-color: hsl(161, 58%, 50%);
+    color: orange;
+    h1 {
+    color: maroon;
+    margin-left: 40px;
+    }
+}
