@@ -11,6 +11,7 @@ header {
 } 
 body {
 <<<<<<< HEAD
+<<<<<<< HEAD
     display: inline;
     background-color: hsl(161, 75%, 83%);
     color: orange;
@@ -18,11 +19,16 @@ body {
     text-align: center; 
     position: static;
 =======
+=======
+>>>>>>> parent of b6ff0bf (Finished all bullets in lab just have to debug now)
     display: blcok;
     background-color: hsl(161, 75%, 83%);
     color: orange;
     padding: auto;
     text-align: center;
+<<<<<<< HEAD
+>>>>>>> parent of b6ff0bf (Finished all bullets in lab just have to debug now)
+=======
 >>>>>>> parent of b6ff0bf (Finished all bullets in lab just have to debug now)
 }
 h1 {
@@ -37,12 +43,15 @@ h1 {
 
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (hover: hover) {
     h1:hover {
         background-color: blueviolet;
     }
   }
 
+=======
+>>>>>>> parent of b6ff0bf (Finished all bullets in lab just have to debug now)
 =======
 >>>>>>> parent of b6ff0bf (Finished all bullets in lab just have to debug now)
 h2 {
