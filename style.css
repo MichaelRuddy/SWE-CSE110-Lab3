@@ -8,13 +8,15 @@ header {
     padding-left: 1cm;
     padding-right: 1cm;
     text-decoration: wavy;
+    position: relative;
 } 
 body {
-    display: blcok;
+    display: flex;
     background-color: hsl(161, 75%, 83%);
     color: orange;
     padding: auto;
     text-align: center;
+    position: static;
 }
 h1 {
     display: inline;
@@ -27,7 +29,18 @@ h1 {
 
     
 }
+@media (hover: hover) {
+    h1:hover {
+        background-color: blueviolet;
+    }
+  }
+@media (max-width: 1250px) {
+    h2 {
+        max-width: 1250px;
+    }
+  }
 h2 {
+    display: block;
     color: red;
     margin-left: 40px;
     font-size: 1cm; /* third abs unit*/
@@ -44,6 +57,7 @@ h3 {
     font-size: 1cm; /* third abs unit*/
 }
 section {
+    display: grid;
     font-size: 2ex; /*third relative*/
 
 }
@@ -91,6 +105,6 @@ div > p {
 h2[id] {
     background-color: antiquewhite;
 }
-button:hover {
+button:active {
     color: blue;
   }
