@@ -11,12 +11,12 @@ header {
     position: relative;
 } 
 body {
-    display: inline;
+    display: flex;
     background-color: hsl(161, 75%, 83%);
     color: orange;
-    padding: auto; 
-    text-align: center; 
-    position: static;
+    padding: auto;
+    /*text-align: center;*/
+    /*position: static;*/
 }
 h1 {
     display: inline;
@@ -24,23 +24,27 @@ h1 {
     margin-left: 40px;
     font-size: 20pt; /* second abs unit*/
     padding: .5cm;
-    /* height: 50px; */
+    height: 50px;
     width: 50%;
 
-
+    
 }
 @media (hover: hover) {
     h1:hover {
         background-color: blueviolet;
     }
   }
-
+@media (max-width: 1250px) {
+    h2 {
+        max-width: 1250px;
+    }
+  }
 h2 {
     display: block;
     color: red;
     margin-left: 40px;
     font-size: 1cm; /* third abs unit*/
-    max-width: 100px;
+    max-width: 500px;
     
 }
 h3 {
