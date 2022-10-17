@@ -11,7 +11,7 @@ header {
     position: relative;
 } 
 body {
-    display: none;
+    display: inline;
     background-color: hsl(161, 75%, 83%);
     color: orange;
     padding: auto; 
