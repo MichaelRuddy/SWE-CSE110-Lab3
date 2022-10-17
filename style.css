@@ -7,27 +7,36 @@ header {
     padding-bottom: 0.5cm;
     padding-left: 1cm;
     padding-right: 1cm;
-}
+    text-decoration: wavy;
+} 
 body {
-    background-color: hsl(161, 58%, 50%);
+    display: blcok;
+    background-color: hsl(161, 75%, 83%);
     color: orange;
     padding: auto;
+    text-align: center;
 }
 h1 {
+    display: inline;
     color: red;
     margin-left: 40px;
     font-size: 20pt; /* second abs unit*/
     padding: .5cm;
+    height: 50px;
+    width: 50%;
+
     
 }
 h2 {
     color: red;
     margin-left: 40px;
     font-size: 1cm; /* third abs unit*/
+    max-width: 500px;
     
 }
 h3 {
-    font-size: 2em /* relative 2 */
+    font-size: 2em; /* relative 2 */
+    min-width: 75%;
 }
 .myDiv {
     width: 90%; /*relative 1*/
@@ -38,6 +47,7 @@ section {
     font-size: 2ex; /*third relative*/
 
 }
+
 #goat {
     margin-top: 0.5cm;
     margin-bottom: 0.5cm;
@@ -47,7 +57,8 @@ section {
 #topG {
     margin: 1cm;
 }
-ul {
+
+ul,ol {
     margin: auto;
   }
   #goat {
@@ -56,6 +67,30 @@ ul {
     margin-left: 1cm;
     margin-right: 1cm;
 }
-form {
+main form {
     border-style: solid;
+    border-color: purple ;
+    border-width: thick;
+    border-radius: 10px;
 }
+p.qs {
+    background-color: green;
+}
+h1 + h2 {
+    font-weight: bold;
+  }
+ol ~ p {
+    color: red;
+  }
+div > p {
+    background-color: yellow;
+  }
+  * {
+    font-style: normal;
+  }
+h2[id] {
+    background-color: antiquewhite;
+}
+button:hover {
+    color: blue;
+  }
