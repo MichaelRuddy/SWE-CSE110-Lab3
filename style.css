@@ -24,10 +24,10 @@ h1 {
     margin-left: 40px;
     font-size: 20pt; /* second abs unit*/
     padding: .5cm;
-    height: 50px;
+    /* height: 50px; */
     width: 50%;
 
-    
+
 }
 @media (hover: hover) {
     h1:hover {
