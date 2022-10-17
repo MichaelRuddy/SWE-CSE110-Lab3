@@ -14,9 +14,9 @@ body {
     display: none;
     background-color: hsl(161, 75%, 83%);
     color: orange;
-    /* padding: auto; */
-    /* text-align: center; */
-    /* position: static; */
+    padding: auto; 
+    text-align: center; 
+    position: static; 
 }
 h1 {
     display: inline;
