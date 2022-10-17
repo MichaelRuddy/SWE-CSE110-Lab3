@@ -16,7 +16,11 @@ body {
     color: orange;
     padding: auto; 
     text-align: center; 
+<<<<<<< HEAD
     position: static;
+=======
+    position: static; 
+>>>>>>> 2d5ec52d3796a592c0dd0c68176708d929de6cff
 }
 h1 {
     display: inline;
