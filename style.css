@@ -13,8 +13,9 @@ header {
 body {
     display: inline-block;
     background-color: hsl(161, 75%, 83%);
-    color: orange;
+    color: red;
     padding: auto;
+    height: 1500px;
     /*text-align: center;*/
     /*position: static;*/
 }
