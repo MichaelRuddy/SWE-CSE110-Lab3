@@ -8,57 +8,46 @@ header {
     padding-left: 1cm;
     padding-right: 1cm;
     text-decoration: wavy;
+    position: relative;
 } 
 body {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    display: inline;
+    display: inline-block;
     background-color: hsl(161, 75%, 83%);
-    color: orange;
-    padding: auto; 
-    text-align: center; 
-    position: static;
-=======
-=======
->>>>>>> parent of b6ff0bf (Finished all bullets in lab just have to debug now)
-    display: blcok;
-    background-color: hsl(161, 75%, 83%);
-    color: orange;
+    color: red;
     padding: auto;
-    text-align: center;
-<<<<<<< HEAD
->>>>>>> parent of b6ff0bf (Finished all bullets in lab just have to debug now)
-=======
->>>>>>> parent of b6ff0bf (Finished all bullets in lab just have to debug now)
+    height: 1500px;
+    font-family: "Silkscreen", serif;
+    /*text-align: center;*/
+    /*position: static;*/
 }
 h1 {
     display: inline;
     color: red;
+    font-family: "Silkscreen", serif;
     margin-left: 40px;
     font-size: 20pt; /* second abs unit*/
     padding: .5cm;
-    /* height: 50px; */
+    height: 50px;
     width: 50%;
 
-
+    
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 @media (hover: hover) {
     h1:hover {
         background-color: blueviolet;
     }
   }
-
-=======
->>>>>>> parent of b6ff0bf (Finished all bullets in lab just have to debug now)
-=======
->>>>>>> parent of b6ff0bf (Finished all bullets in lab just have to debug now)
+@media (max-width: 1250px) {
+    h2 {
+        max-width: 1250px;
+    }
+  }
 h2 {
+    display: block;
     color: red;
     margin-left: 40px;
     font-size: 1cm; /* third abs unit*/
-    max-width: 100px;
+    max-width: 500px;
     
 }
 h3 {
@@ -71,6 +60,7 @@ h3 {
     font-size: 1cm; /* third abs unit*/
 }
 section {
+    display: grid;
     font-size: 2ex; /*third relative*/
 
 }
@@ -118,6 +108,6 @@ div > p {
 h2[id] {
     background-color: antiquewhite;
 }
-button:hover {
+button:active {
     color: blue;
   }
